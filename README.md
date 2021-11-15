@@ -1,11 +1,11 @@
-# 08-Project-1-Professional-Materials
+# 15-Project-2-Professional-Materials
 
 The goal was to build a personl portfolio website that will allow you to showcase your work. I hope you enjoy!
 
 ## GitHub Links
 
-Live Page [Link](https://jeffcela.github.io/08-Project-1-Professional-Materials/) <br>
-Project Repository [Link](https://github.com/jeffcela/08-Project-1-Professional-Materials)
+Live Page [Link](https://jeffcela.github.io/15-Project-2-Professional-Materials/) <br>
+Project Repository [Link](https://github.com/jeffcela/15-Project-2-Professional-Materials/settings/pages)
 
 ## How its made!
 
@@ -38,7 +38,7 @@ _Please make sure that you are adding any additional assets as needed_
 
 # Credit<br>
 
-_This homework assignment was completed in VS Code and Terminal by [Jeff Cela](https://www.linkedin.com/in/jeffcela/) on the day of 08/06/2021_
+_This homework assignment was completed in VS Code and Terminal by [Jeff Cela](https://www.linkedin.com/in/jeffcela/) on the day of 11/14/2021_
 
 © 2021 Trilogy Education Services, LLC, a 2U, Inc. brand. Confidential and Proprietary. All Rights Reserved.
 
