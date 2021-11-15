@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <!-- External stylesheets -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-beta/css/materialize.min.css">
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
+        <!-- Local style sheets, style-photo is only for this page, style is used for all .html files -->
+        <link rel="stylesheet" href="assets/css/style-dev.css" />
+        <link rel="stylesheet" href="assets/css/style.css" />
+        <link rel="shortcut icon" href="assets/images/design_files/favicon_dev.png">
+
+        <title>designs by jeff</title>
+    </head>
+
+    <body>
+        <!-- Dropdown Structure -->
+        <ul id="dropdown1" class="dropdown-content">
+            <li><a href="dev.html">Development</a></li>
+            <li><a href="photo.html">Photography</a></li>
+            <!-- <li><a href="design.html">Design</a></li>
+            <li><a href="account.html">Experience</a></li> -->
+        </ul>
+        <ul id="dropdown2" class="dropdown-content">
+            <li><a href="about.html">About</a></li>
+            <li><a href="assets/images/cela.j.pdf" target="_blank">Resume</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+        <!-- Desktop Navigation -->
+        <nav>
+            <div class="nav-wrapper">
+                <a href="index.html" class="brand-logo"><img class="logo-header" src="assets/images/brand_logos/designs_byJeff_white_hor.png" alt="Logo"></a>
+                <a href="dev.html" class="brand-logo center"><img class="icon-header" src="assets/images/design_files/dev_icon_header.png" alt="Logo"></a>
+                <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+                <ul class="right hide-on-med-and-down">
+                    <li><a href="index.html">Main</a></li>
+                    <!-- Dropdown Trigger -->
+                    <li><a class="dropdown-trigger" href="#!" data-target="dropdown1">Portfolio<i class="material-icons right">arrow_drop_down</i></a></li>
+                    <li><a class="dropdown-trigger" href="#!" data-target="dropdown2">About<i class="material-icons right">arrow_drop_down</i></a></li>
+                </ul>
+            </div>
+        </nav>
+        <!-- Mobile Navigation -->
+        <ul class="sidenav" id="mobile-demo">
+            <li><a href="index.html">Main</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="contact.html">Contact</a></li>
+            <li><a href="assets/images/cela.j.pdf" target="_blank">Resume</a></li>
+        </ul>
+
+        <!--Content for page starts here -->
+        <main>
+            <div class="container">
+                <div class="row">
+                    <h2 class="col s12 center">Development</h2>
+                    <!-- Quiz Application -->
+                    <div class="col s12 m6 l4">
+                        <div class="card">
+                            <div class="card-image">
+                                <img src="assets/images/design_files/quiz_app.png">
+                                <a href="#modal1" class="btn-floating halfway-fab waves-effect waves-light modal-trigger modal-close"><i class="material-icons">add</i></a>
+                            </div>
+                            <div class="card-content">
+                                <span class="card-title">Color Quiz</span>
+                                <p>Do you think you know your color? Try it out and see how you score, if you guess wrong your time will be cut short. Dont forget to log your score, GOOD LUCK!</p>
+                            </div>
+                        </div>
+                        <!-- Modal Structure Quiz Application -->
+                        <div id="modal1" class="modal bottom-sheet">
+                            <span><i class="material-icons right modal-close">close</i></span>
+                            <div class="modal-content">
+                                <div class="row">
+                                    <div class="col s12 m4 l2 center">
+                                        <h4>Color Quiz</h4>
+                                        <p><a href="https://jeffcela.github.io/04-Web-APIs-Code-Quiz/" target="_blank" class="text-modal"><i class="material-icons prefix icon-modal">web</i>Deployed Project</a></p>
+                                        <p><a href="https://github.com/jeffcela/04-Web-APIs-Code-Quiz" target="_blank" class="text-modal"><i class="material-icons prefix icon-modal">sd_storage</i>Project Repository</a></p>
+                                    </div>
+                                    <img class="col s12 m8 l10" src="assets/images/brand_logos/code_quiz.gif">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Weather Application -->
+                    <div class="col s12 m6 l4">
+                        <div class="card">
+                            <div class="card-image">
+                                <img src="assets/images/design_files/weather_app-01.png">
+                                <a href="#modal2" class="btn-floating halfway-fab waves-effect waves-light modal-trigger modal-close"><i class="material-icons">add</i></a>
+                            </div>
+                            <div class="card-content">
+                                <span class="card-title">Weather App</span>
+                                <p>Want to know the weather for a city you are about to visit? Type in the city and the current and 5 day forecast appears, it evens saves your recent searches.</p>
+                            </div>
+                        </div>
+                        <!-- Modal Structure Weather App -->
+                        <div id="modal2" class="modal bottom-sheet">
+                            <span><i class="material-icons right modal-close">close</i></span>
+                            <div class="modal-content">
+                                <div class="row">
+                                    <div class="col s12 m4 l2 center">
+                                        <h4>Weather Application</h4>
+                                        <p><a href="https://jeffcela.github.io/06-Server-Side-APIs-Weather-Dashboard/" target="_blank" class="text-modal"><i class="material-icons prefix icon-modal">web</i>Deployed Project</a></p>
+                                        <p><a href="https://github.com/jeffcela/06-Server-Side-APIs-Weather-Dashboard" target="_blank" class="text-modal"><i class="material-icons prefix icon-modal">sd_storage</i>Project Repository</a></p>
+                                    </div>
+                                    <img class="col s12 m8 l10" src="assets/images/brand_logos/weather_app.png">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Password Generator -->
+                    <div class="col s12 m6 l4">
+                        <div class="card">
+                            <div class="card-image">
+                                <img src="assets/images/design_files/pass_generator.png">
+                                <a href="#modal3" class="btn-floating halfway-fab waves-effect waves-light modal-trigger modal-close"><i class="material-icons">add</i></a>
+                            </div>
+                            <div class="card-content">
+                                <span class="card-title">Password Generator</span>
+                                <p>Do you need a new password? Do you need a password that has numbers, symbols, and letters that are either uppercase or lowercase to increase the stregnth of it?</p>
+                            </div>
+                        </div>
+                        <!-- Modal Structure Password Generator -->
+                        <div id="modal3" class="modal bottom-sheet">
+                            <span><i class="material-icons right modal-close">close</i></span>
+                            <div class="modal-content">
+                                <div class="row">
+                                    <div class="col s12 m4 l2 center">
+                                        <h4>Password Generator</h4>
+                                        <p><a href="https://jeffcela.github.io/03-JavaScript-Password-Generator/" target="_blank" class="text-modal"><i class="material-icons prefix icon-modal">web</i>Deployed Project</a></p>
+                                        <p><a href="https://github.com/jeffcela/03-JavaScript-Password-Generator" target="_blank" class="text-modal"><i class="material-icons prefix icon-modal">sd_storage</i>Project Repository</a></p>
+                                    </div>
+                                    <img class="col s12 m8 l10" src="assets/images/brand_logos/PssWd_Gen.gif">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- RottenTrailers -->
+                    <div class="col s12 m6 l4">
+                        <div class="card">
+                            <div class="card-image">
+                                <img src="assets/images/design_files/rt_icon.png">
+                                <a href="#modal4" class="btn-floating halfway-fab waves-effect waves-light modal-trigger modal-close"><i class="material-icons">add</i></a>
+                            </div>
+                            <div class="card-content">
+                                <span class="card-title">RottenTrailers</span>
+                                <p>Want to know if the next 2hrs of watching a movie will be worth it? RottenTrailers brings your the rating and a trailer with one push of a button.</p>
+                            </div>
+                        </div>
+                        <!-- Modal Structure RottenTrailers -->
+                        <div id="modal4" class="modal bottom-sheet">
+                            <span><i class="material-icons right modal-close">close</i></span>
+                            <div class="modal-content">
+                                <div class="row">
+                                    <div class="col s12 m4 l2 center">
+                                        <h4>RottenTrailers</h4>
+                                        <p><a href="https://jeffcela.github.io/Rotten_Trailers/" target="_blank" class="text-modal"><i class="material-icons prefix icon-modal">web</i>Deployed Project</a></p>
+                                        <p><a href="https://github.com/jeffcela/Rotten_Trailers" target="_blank" class="text-modal"><i class="material-icons prefix icon-modal">sd_storage</i>Project Repository</a></p>
+                                    </div>
+                                    <img class="col s12 m8 l10" src="assets/images/brand_logos/rotten-pre.gif">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Scheduler Application-->
+                    <div class="col s12 m6 l4">
+                        <div class="card">
+                            <div class="card-image">
+                                <img src="assets/images/design_files/to-do_app.png">
+                                <a href="#modal5" class="btn-floating halfway-fab waves-effect waves-light modal-trigger modal-close"><i class="material-icons">add</i></a>
+                            </div>
+                            <div class="card-content">
+                                <span class="card-title">Scheduler Application</span>
+                                <p>Looking to stay organized throughout the day? Try out this scheduler, it will keep your on time and organized. With one click you can save to your local storage!</p>
+                            </div>
+                        </div>
+                        <!-- Modal Structure Scheduler -->
+                        <div id="modal5" class="modal bottom-sheet">
+                            <span><i class="material-icons right modal-close">close</i></span>
+                            <div class="modal-content">
+                                <div class="row">
+                                    <div class="col s12 m4 l2 center">
+                                        <h4>Scheduler Application</h4>
+                                        <p><a href="https://jeffcela.github.io/05-Third-Party-APIs/" target="_blank" class="icon-modal"><i class="material-icons prefix icon-modal">web</i>Deployed Project</a></p>
+                                        <p><a href="https://github.com/jeffcela/05-Third-Party-APIs" target="_blank" class="icon-modal"><i class="material-icons prefix icon-modal">sd_storage</i>Project Repository</a></p>
+                                    </div>
+                                    <img class="col s12 m8 l10" src="assets/images/brand_logos/scheduler.jpeg">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- README Generator-->
+                    <div class="col s12 m6 l4">
+                        <div class="card">
+                            <div class="card-image">
+                                <img src="assets/images/design_files/md_icon.png">
+                                <a href="#modal6" class="btn-floating halfway-fab waves-effect waves-light modal-trigger modal-close"><i class="material-icons">add</i></a>
+                            </div>
+                            <div class="card-content">
+                                <span class="card-title">README Generator</span>
+                                <p>This application will allow for you to generate professional grade README files by just answering a few questions. Take a look at the repo and try it yourself!</p>
+                            </div>
+                        </div>
+                        <!-- Modal Structure Scheduler -->
+                        <div id="modal6" class="modal bottom-sheet">
+                            <span><i class="material-icons right modal-close">close</i></span>
+                            <div class="modal-content">
+                                <div class="row">
+                                    <div class="col s12 m4 l2 center">
+                                        <h4>README Generator</h4>
+                                        <p><a href="https://github.com/jeffcela/09-Node_js-README-Generator" target="_blank" class="text-modal"><i class="material-icons prefix icon-modal">sd_storage</i>Project Repository</a></p>
+                                    </div>
+                                    <img class="col s12 m8 l10" src="assets/images/readme_gen.gif">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </main>
+
+        <!-- This is the footer -->
+        <footer class="page-footer">
+                <div>
+                    <ul class=" row center">
+                        <oi><a href="https://github.com/jeffcela" target="_blank"><img class="footer-icon" src="assets/images/github_icon.png" alt="Github Icon"></a></li>
+                        <oi><a href="https://www.instagram.com/jeffcela/?hl=en" target="_blank"><img class="footer-icon" src="assets/images/instagram_icon.png" alt="Instagram Icon"></a></li>
+                        <oi><a href="https://www.linkedin.com/in/jeffcela/" target="_blank"><img class="footer-icon" src="assets/images/linkedin_icon.png" alt="Linkedin Icon"></a></li>
+                        <oi>
+                            <div>
+                                © 2021 Copyright designs by jeff
+                            </div>
+                        </oi>
+                    </ul>
+                </div>
+        </footer>
+
+        <!-- External Scripts -->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+        <!-- Local scripts -->
+        <script src="assets/js/gallery.js"></script>
+        <script src="assets/js/script.js"></script>
+    </body>
+
+</html>

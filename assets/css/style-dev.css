@@ -1,0 +1,58 @@
+/* Colors for quick apply
+  var(--lightBlue);
+  var(--darkBlue);
+  var(--yellow);
+  var(--red);
+  var(--grey);
+  var(--white);
+*/
+
+.btn-floating {
+  background-color: var(--yellow);
+}
+
+.btn-floating:hover {
+  background-color: var(--red);
+}
+
+.btn-floating:focus {
+  background-color: var(--yellow);
+}
+
+.icon-modal,
+.text-modal {
+  color: var(--darkBlue);
+  width: 40px;
+  position: relative;
+  top: 5px;
+}
+
+.text-modal {
+  font-size: 18px;
+}
+
+li {
+  list-style: none;
+}
+
+.modal-close {
+  margin: 20px 20px;
+}
+
+@media (max-width: 1000px) {
+  .modal-close {
+    margin: 20px 20px;
+  }
+}
+
+@media (max-width: 800px) {
+  .modal-close {
+    margin: 15px 15px;
+  }
+}
+
+@media (max-width: 600px) {
+  .modal-close {
+    margin: 10px 10px;
+  }
+}

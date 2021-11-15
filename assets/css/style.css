@@ -1,0 +1,166 @@
+@import url("https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&display=swap");
+
+* {
+  font-family: "Oswald", sans-serif;
+}
+
+:root {
+  --lightBlue: #177e89;
+  /* var(--lightBlue); */
+  --darkBlue: #084c61;
+  /* var(--darkBlue); */
+  --yellow: #ffc857;
+  /* var(--yellow); */
+  --red: #db3a34;
+  /* var(--red); */
+  --grey: #323031;
+  /* var(--grey); */
+  --white: #ffffff;
+  /* var(--white); */
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+}
+
+main {
+  flex: 1 0 auto;
+}
+
+.body-index {
+  background-color: var(--darkBlue);
+}
+
+.carousel {
+  height: 300px;
+  perspective: 800px;
+  background-color: var(--white);
+}
+
+.carousel .carousel-item {
+  width: 250px;
+}
+
+.carousel .carousel-item img {
+  width: 80%;
+}
+
+.indicators {
+  display: none;
+}
+
+h1 {
+  margin-bottom: 75px;
+  color: var(--white);
+}
+
+h3 {
+  margin: 75px 0px -30px 0px;
+  color: var(--yellow);
+}
+
+/* Header Styles */
+
+.logo-header {
+  width: 175px;
+  margin: 10px 0px 10px 10px;
+}
+
+.nav-wrapper {
+  background-color: var(--darkBlue);
+}
+
+.dropdown-content li > a,
+.dropdown-content li > span {
+  color: var(--darkBlue);
+}
+
+.icon-page {
+  width: 30px;
+  position: relative;
+  left: 10px;
+  top: 10px;
+}
+
+.icon-header-sm {
+  width: 35px;
+  margin: 10px 0px 10px 10px;
+}
+
+.icon-header {
+  width: 50px;
+  margin: 10px 0px 10px 10px;
+}
+
+.icon-header-lg {
+  width: 65px;
+  margin: 10px 0px 10px 10px;
+}
+
+p {
+  padding-bottom: 0px;
+}
+
+/* Footer Styles */
+
+.page-footer {
+  background-color: var(--grey);
+}
+
+.footer-icon {
+  margin: 0px 15px 15px 0px;
+  width: 25px;
+}
+
+@media (max-width: 1000px) {
+  h1 {
+    font-size: 55px;
+    margin-bottom: 50px;
+  }
+  h3 {
+    font-size: 35px;
+  }
+  .icon-header,
+  .icon-header-lg,
+  .icon-header-sm {
+    display: none;
+  }
+}
+@media (max-width: 800px) {
+  h1 {
+    font-size: 45px;
+    margin-bottom: 25px;
+  }
+  h3 {
+    font-size: 30px;
+    margin-top: 25px;
+  }
+}
+
+@media (max-width: 600px) {
+  h1 {
+    font-size: 30px;
+    margin-bottom: 30px;
+  }
+  h3 {
+    font-size: 20px;
+    margin-top: 30px;
+  }
+  .logo-header {
+    width: 125px;
+  }
+  .page-footer {
+    margin-top: 15px;
+  }
+  .footer-icon {
+    margin: 0px 15px 15px 0px;
+    width: 25px;
+  }
+  .carousel {
+    perspective: 275px;
+  }
+}
